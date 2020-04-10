@@ -25,31 +25,14 @@ https://mkrtchyan.ga
     to {background-position:-10000px 5000px;}
 }
 
-@keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-webkit-keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-moz-keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-ms-keyframes move-clouds-back {
-    from {background-position: 0;}
-    to {background-position:10000px 0;}
-}
-
 .stars, .twinkling {
     position:absolute;
     top:0;
     left:0;
     right:0;
     bottom:0;
-    min-width:21cm;
-    height:350cm;
+    min-width:44cm;
+    min-height:400cm;
     display:block;
 }
 
@@ -91,8 +74,8 @@ body {
 }
 
 .sun {
-    height: 1.98957cm;
-    width: 1.98957cm;
+    height: auto;
+    width: 19.8957cm;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -159,9 +142,56 @@ body {
 }
 
 .jtos {
-    height: 22.267cm;
+    height: 28.785cm;
 }
 
+.saturn {
+    height: 17.219cm;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stou {
+    height: 58.643cm;
+}
+
+.uranus {
+    height: 7.303cm;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.utopmin {
+    height: 58.955cm;
+}
+
+.pluto {
+    height: auto;
+    width: 0.339cm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pminton {
+    height: 1.5992cm;
+}
+
+.neptune {
+    height: auto;
+    width: 7.075cm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ntopmax {
+    height: 115.958cm;
+}
 
 .tooltip .tooltiptext {
     visibility: hidden;
